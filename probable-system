@@ -1,0 +1,15 @@
+        switch action {
+        case .changeSize(let size):
+            newText.fontSize = size
+            
+        case .changeFontName(let name):
+            newText.fontName = name
+            
+        case .changeKern(let kern):
+            newText.kern = kern
+            
+        case .changeLineSpacing(let spacing):
+            newText.lineSpacing = spacing
+            
+        case .changeAlignment(let alignment):
+            newText.alignment = alignment
